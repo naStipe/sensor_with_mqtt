@@ -7,7 +7,7 @@ var con = mysql.createConnection({
     user: "yourusername",
     password: "yourpassword"
 });
-
+// !!!!!!!!!!!!!!!!!!!!!DATABASE IS NOT IMPLEMENTED !!!!!!!!!!!!!!!!!!!!!!! //
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
